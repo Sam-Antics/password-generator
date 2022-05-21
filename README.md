@@ -25,7 +25,7 @@ THEN the password is either displayed in an alert or written to the page
 ## Deployed Website
 https://sam-antics.github.io/password-generator/
 
-![Deployed website](#)
+![Deployed website](/assets/images/screenshot.png)
 
 ## Built With
 * HTML
