@@ -1,10 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
+// Variables
+var upperCase = "ABCDEFGHIJKLMNOP";
+var lowerCase = "abcdefghijklmnop";
+var numerals = "1234567890";
+var special = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+var passChars = "";
 
 // When the "generate password" button is clicked ...
 function generatePassword () {
+
+  //code placeholder for password result
+  var passResult = "";
   
   // User is prompted for number of chars in the pw (8 - 128)
   var charLength = window.prompt("How many characters for your password?\n    (Minimum is 8, maximum is 128)");
@@ -36,8 +44,28 @@ function generatePassword () {
     window.alert("Please choose at least one character type.");
     return generatePassword();
   }
-}
-// Password is generated that matches selected criteria
+  // Password is generated that matches selected criteria
+  if (confirmUpper) {
+    passChars += upperCase
+  }
+  if (confirmLower) {
+    passChars += lowerCase
+  }
+  if (confirmNumeric) {
+    passChars += numerals
+  }
+  if (confirmSpecial) {
+    passChars += special
+  }
+
+ // randomize password characters 
+  for (var i = 0; i < charLength; i++) {
+    passResult += passChars.charAt(Math.floor(Math.random() * passChars.length));
+  }
+
+  return passResult;
+
+}// end password() function
 
 // Password is "written in the 'Your Secure Password' box"
 // Write password to the #password input
