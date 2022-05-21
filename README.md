@@ -23,7 +23,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Deployed Website
-https://github.com/Sam-Antics/password-generator
+https://sam-antics.github.io/password-generator/
 
 ![Deployed website](#)
 
@@ -39,12 +39,3 @@ https://github.com/Sam-Antics/password-generator
 - [GitHub Profile](https://github.com/Sam-Antics)
 - [LinkedIn](https://www.linkedin.com/in/seguerra/)
 
-<!--- ## Contributions
-Purple Glitter - photo by [Nixx Studio](https://unsplash.com/@nechamalock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-[Twitter Squared](https://icons8.com/icon/MP7jET0S1bw5/twitter-squared) icon by [Icons8](https://icons8.com)  
-[Email](https://icons8.com/icon/eWFdbcsig4Eq/email) icon by [Icons8](https://icons8.com)  
-[GitHub](https://icons8.com/icon/52539/github) icon by [Icons8](https://icons8.com)  
-[LinkedIn](https://icons8.com/icon/44019/linkedin) icon by [Icons8](https://icons8.com)
-
-## Development
-As of right now, this is a work in progress. I will more than likely find new features and ways to make my portfolio more engaging for the user as I develop my skillset over the course of the six-month bootcamp I am currently in. --->
